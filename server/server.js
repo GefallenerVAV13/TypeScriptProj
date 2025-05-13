@@ -7,8 +7,7 @@ app.use(express.json());
 
 // Начальные данные для товаров
 let products = [
-    { id: 1, title: "Товар 1", description: "Описание товара 1", price: "1000" },
-    { id: 2, title: "Товар 2", description: "Описание товара 2", price: "2000" },
+
 ];
 
 // GET запрос для получения всех товаров
